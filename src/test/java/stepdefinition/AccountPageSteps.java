@@ -40,6 +40,7 @@ public class AccountPageSteps {
 		//System.out.println("Accounts page title is: "+ title);
 		Boolean MyAccount=accountsPage.getMyAccount();
 		Assert.assertTrue(MyAccount);
+		System.out.println("Accounts page title is: "+ MyAccount);
 	}
 
 	@Then("user gets accounts section")
